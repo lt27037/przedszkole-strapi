@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/top-section",
+      "handler": "top-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/top-section",
+      "handler": "top-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/top-section",
+      "handler": "top-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
